@@ -1,3 +1,7 @@
+// This program inds whether or not a user-input is a palindrome number or not
+// Palindrome numbers demonstrate reflectional symmetry across a vertical axis; in simpler terms, upon flipping the number the value remains the same
+// Example: 121 reversed is 121, 464 reversed is 464
+
 import java.util.Scanner;
 public class Palindrome {
     public static void main(String[] args){
@@ -19,3 +23,5 @@ public class Palindrome {
         }
     }
 }
+
+// I will add explanations to the lines eventually

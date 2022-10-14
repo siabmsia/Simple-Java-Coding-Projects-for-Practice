@@ -3,7 +3,7 @@
 // Example: 121 reversed is 121, 464 reversed is 464
 
 import java.util.Scanner;
-public class Palindrome {
+public class PalindromeWithoutRecursion {
     public static void main(String[] args){
         Scanner Sc = new Scanner(System.in);
         int temp, remainder, sum = 0;

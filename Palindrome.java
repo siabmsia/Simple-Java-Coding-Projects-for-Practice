@@ -12,7 +12,7 @@ public class Palindrome {
         temp = number; //storing the number for future comparisons
         while (number > 0){
             remainder = number % 10;
-            sum = sum + remainder;
+            sum = (sum * 10) + remainder;
             number = number / 10;
         }
 

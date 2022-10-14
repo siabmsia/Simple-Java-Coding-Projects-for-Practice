@@ -10,18 +10,16 @@ public class Palindrome {
         System.out.println ("Enter the number: "); //enters the value of the number from the user
         int number = Sc.nextInt(); //initializes variable
         temp = number; //storing the number for future comparisons
-        while (number > 0){
-            remainder = number % 10;
+        while (number > 0){ //condition
+            remainder = number % 10; //stores the remainder after the number is divided by ten, for example, the remainder of 232 would be 2, 23 would be 3, and 2 would be 2
             sum = (sum * 10) + remainder;
-            number = number / 10;
+            number = number / 10; //in order to keep the loop going
         }
 
-        if (temp == sum) {
-            System.out.println ("Palindrome Number");
+        if (temp == sum) { //checking if the variable stored in line 12 is same as the variable sum we have added to from the loop
+            System.out.println ("Palindrome Number"); 
         } else {
             System.out.println ("Not a Palindrome Number");
         }
     }
 }
-
-// I will add explanations to the lines eventually
